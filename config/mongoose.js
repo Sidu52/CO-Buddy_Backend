@@ -1,7 +1,7 @@
 require('dotenv').config()
 const mongoose = require('mongoose');
 // const url = "mongodb://127.0.0.1:27017/Traveller";
-const url = `mongodb+srv://${process.env.Mongoose_Cluster_Name}:${process.env.Mongoose_PASSWORD}@cluster0.fca4n63.mongodb.net/CovidPROJECT`;
+const url = `mongodb+srv://${process.env.Mongoose_Cluster_Name}:${process.env.Mongoose_PASSWORD}@cluster0.fca4n63.mongodb.net/CO_Buddy`;
 
 mongoose.connect(url);
 const db = mongoose.connection;
